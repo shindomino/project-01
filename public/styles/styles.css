@@ -1,0 +1,64 @@
+.a8788 {
+  background-image: url(/images/8788.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #EEE;
+  background-position: center;
+
+}
+.a8788 .container {
+  height: 400px;
+  margin-left: 10;
+  margin-right: 10;
+  margin-top: 10;
+
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: yellow;
+}
+h2 {
+  text-align: center;
+}
+button {
+  color: red
+}
+body {
+  background-color: black;
+}
+
+form {
+  font-size: 30px;
+  color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ff6600;
+}
+
+.active {
+    background-color: #4CAF50;
+}
